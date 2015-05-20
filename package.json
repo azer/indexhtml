@@ -1,0 +1,26 @@
+{
+  "name": "indexhtml",
+  "version": "0.0.0",
+  "description": "Generate a customized index.html file",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "keywords": [
+    "index",
+    "html",
+    "generate"
+  ],
+  "repository": {
+    "url": "git@github.com:azer/indexhtml.git",
+    "type": "git"
+  },
+  "author": "azer",
+  "license": "BSD",
+  "dependencies": {
+    "format-text": "0.0.3"
+  },
+  "devDependencies": {
+    "prova": "^2.1.2"
+  }
+}
