@@ -13,9 +13,9 @@ function generate (options) {
   return render(template, {
     title: options.title || '',
     content: options.content || '',
-    js: options.js.map(script).join('\n'),
-    css: options.css.map(link).join('\n'),
-    meta: options.meta.map(meta).join('\n')
+    js: options.js ? options.js.map(script).join('\n') : '',
+    css: options.css ? options.css.map(link).join('\n') : '',
+    meta: options.meta ? options.meta.map(meta).join('\n') : ''
   });
 }
 
